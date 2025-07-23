@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import LoadMoreData from "./load-more-data";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <LoadMoreData />
+    </div>
+  );
 }
 
-export default App
+export default App;
